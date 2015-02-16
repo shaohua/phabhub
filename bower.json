@@ -1,0 +1,27 @@
+{
+  "name": "phabhub",
+  "version": "0.0.1",
+  "homepage": "https://github.com/shaohua/phabhub",
+  "authors": [
+    "shaohua"
+  ],
+  "description": "Chrome extension for Phabricator to make it easier to use like GitHub",
+  "keywords": [
+    "Phabricator",
+    "Chrome",
+    "extension",
+    "GitHub"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "underscore": "~1.7.0"
+  }
+}
