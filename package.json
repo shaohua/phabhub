@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/shaohua/phabhub",
   "dependencies": {
-    "flux": "^2.0.1"
+    "flux": "^2.0.1",
+    "react": "^0.12.2"
   },
   "devDependencies": {
     "browserify": "^8.1.3",

@@ -1,4 +1,5 @@
 'use strict';
+var React = require('react');
 var Search = require('./search');
 
 chrome.extension.sendMessage({}, function(response) {
@@ -16,6 +17,14 @@ chrome.extension.sendMessage({}, function(response) {
 });
 
 $(document).ready(function(){
+  // create placeholder
   $('.phabricator-nav-content')
     .prepend('<div class="phabhub-homepage-container aphront-panel-plain aphront-panel-view">Test</div>');
+
+  // render React components into placeholder
+  React.render(
+    <Search />,
+    $('.phabhub-homepage-container')[0]
+  );
+
 });
