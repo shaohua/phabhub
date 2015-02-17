@@ -45,7 +45,7 @@
       "js": [
         "bower_components/underscore/underscore-min.js",
         "bower_components/jquery/dist/jquery.min.js",
-        "src/inject/inject.js"
+        "index.js"
       ]
     }
   ],

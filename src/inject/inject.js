@@ -1,4 +1,5 @@
 'use strict';
+var Search = require('./search');
 
 chrome.extension.sendMessage({}, function(response) {
   var readyStateCheckInterval = setInterval(function() {

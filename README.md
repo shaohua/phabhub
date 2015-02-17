@@ -5,3 +5,11 @@ A Phabricator Chrome Extension to make it a little bit easier to use. Let's try 
 ```
 bower install
 ```
+
+# to build
+```
+gulp
+```
+
+# build process
+src -> lib -> dist (chrome extension)
